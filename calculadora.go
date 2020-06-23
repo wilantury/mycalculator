@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-type calc struct {
+type Calc struct {
 }
 
 func getOperator(in string) string {
