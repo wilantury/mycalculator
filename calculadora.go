@@ -18,7 +18,7 @@ func GetOperator(in string) string {
 	return validID.FindString(in)
 }
 
-func (Calc) operate(entrada string, operator string) int {
+func (Calc) Operate(entrada string, operator string) int {
 	clean_input := strings.Split(entrada, operator)
 	operator1 := parsear(clean_input[0])
 	operator2 := parsear(clean_input[1])
