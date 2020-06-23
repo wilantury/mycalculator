@@ -12,7 +12,7 @@ import (
 type Calc struct {
 }
 
-func getOperator(in string) string {
+func GetOperator(in string) string {
 	var validID = regexp.MustCompile(`[\+*-/]`)
 	fmt.Println(validID.FindString(in))
 	return validID.FindString(in)
